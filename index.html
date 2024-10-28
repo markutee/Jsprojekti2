@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeffaInfo</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS-tiedosto tyyleille -->
+</head>
+<body>
+    <header>
+        <h1>LeffaInfo</h1>
+    </header>
+    
+    <main>
+        <section>
+            <label for="theater-select">Valitse teatteri:</label>
+            <select id="theater-select">
+                <!-- Teatterit lisätään dynaamisesti JavaScriptillä -->
+            </select>
+
+            <label for="search-input">Etsi elokuvaa:</label>
+            <input type="text" id="search-input" placeholder="Hae elokuvaa..." />
+
+            <button id="search-button">Hae</button>
+        </section>
+
+        <section id="movie-info">
+            <h2>Elokuvat:</h2>
+            <div id="movies-container">
+                <!-- Elokuvien tiedot näytetään täällä -->
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script> <!-- JavaScript-tiedosto -->
+</body>
+</html>
