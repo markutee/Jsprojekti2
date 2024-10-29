@@ -5,7 +5,7 @@ Leffalista. Tekijät Teemu Markus ja Jenni Koivisto.
 Pääsy sivulle tämän linkin kautta --> [Leffalista](https://leffalista.netlify.app/)
 
 ## Työnjako
-Koodin kirjoitus jaettiin aikalailla 50/50. Kun kaikki tarvitta tiedonhaku oli tehtynä lähdimme yhdessä kirjoittamaan koodia, teimme molemmat muutoksia koodiin vuoron perään, sillä tämä ohjelma ei ihan ensimmäisellä yrittämällä lähtenyt toimimaan.Teemu käytti aikaa API avaimen hakuun, jotta saatiin ohjelma toimivaksi Open Movie databasen kanssa. Jenni puolestaan tällä välillä käytti aikaa ohjelman tyylittelyyn käyttäen css:ää.
+Koodin kirjoitus jaettiin aikalailla 50/50. Kun kaikki tarvitta tiedonhaku oli tehtynä lähdimme yhdessä kirjoittamaan koodia, teimme molemmat muutoksia koodiin vuoron perään, sillä tämä ohjelma ei ihan ensimmäisellä yrittämällä lähtenyt toimimaan.Teemu käytti aikaa API avaimen hakuun, jotta saatiin ohjelma toimivaksi Open Movie databasen kanssa. Jenni puolestaan tällä välillä käytti aikaa ohjelman tyylittelyyn käyttäen css:ää. Jenni teki myös meidän sovelluksen esittely videon.
 
 Tekijöiden projektiin käyttämä aika tunteina:
     - Teemu 6.5h
