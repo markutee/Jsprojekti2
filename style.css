@@ -71,4 +71,70 @@ section {
     margin: 0 auto; /* Keskittää kuvan */
     display: block;
 }
+#search-button {
+    background: linear-gradient(45deg, #3587df, #02f8aa); /* Gradientti */
+    color: #fff;
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 1.1em;
+    border: none;
+    border-radius: 8px; /* Pyöristetyt kulmat */
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Varjostus */
+    transition: transform 0.2s, box-shadow 0.2s; /* Hover-animaatio */
+}
+
+#search-button:hover {
+    transform: scale(1.05); /* Hieman suurempi hover-efekti */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+#search-input {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#search-input:focus {
+    border-color: #16dcae; /* Muuttaa reunan väriä */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Korostettu varjostus */
+}
+
+#theater-select {
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #333;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Varjostus */
+    
+    background-image: url('dropdown-icon.svg'); /* Lisää mukautettu nuoli-ikoni */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+}
+
+#theater-select:hover {
+    border-color: #16dcae;
+}
+
+#theater-select:focus {
+    border-color: #16dcae;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Fokusvarjostus */
+}
+label{
+    font-size: 20px;
+    margin: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
 
